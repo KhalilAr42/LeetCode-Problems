@@ -116,12 +116,9 @@ public class twoSum{
         for (int i = 0; i < numbers.length; i++) {
             complement = target - numbers[i];
             if (map.containsKey(complement)) {
-                int complementIndex = map.get(complement);
-                return new int[] {i,complementIndex};
+                return new int[] {i,map.get(complement)};
             } 
-
             map.put(numbers[i],i);
-            
         }
         return new int[0];
     }

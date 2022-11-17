@@ -17,3 +17,8 @@ Click on **the coffee icon to get to the Java solution source code.**
 | # | Title | Python | Java | Difficulty |
 | - | :---: | :----: | :--: | :--------: |
 | 0 | [Two Sum](https://leetcode.com/problems/two-sum/)  | [:snake:](./Python/twoSum/two_sum.py)| [:coffee:](./Java/twoSum/twoSum.java) | Easy |
+| 1 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)  | [:snake:](./Python/palindromeNumber/palindrome_number.py)| [:coffee:](./Java/palindromeNumber/PalindromeNumber.java) | Easy |
+
+
+
+
