@@ -132,10 +132,10 @@ public class PalindromeNumber {
 
     public static void main(String[] args){
         int number = 75257;
-        System.out.printf("First version Solution%b\n",isPalindromNumberVersion1(number));
-        System.out.printf("Second version Solution%b\n",isPalindromNumberVersion2(number));
-        System.out.printf("Third version Solution%b\n",isPalindromNumberVersion3(number));
-        System.out.printf("Fourth version Solution%b\n",isPalindromNumberVersion4(number));
+        System.out.printf("First version Solution : %b\n",isPalindromNumberVersion1(number));
+        System.out.printf("Second version Solution : %b\n",isPalindromNumberVersion2(number));
+        System.out.printf("Third version Solution : %b\n",isPalindromNumberVersion3(number));
+        System.out.printf("Fourth version Solution : %b\n",isPalindromNumberVersion4(number));
     }
 
 }

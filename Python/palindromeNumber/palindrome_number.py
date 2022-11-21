@@ -110,7 +110,7 @@ def is_palindrome_number_version4(number):
 
 
 number = 75257
-print(is_palindrome_number_version1(number))
-print(is_palindrome_number_version2(number))
-print(is_palindrome_number_version3(number))
-print(is_palindrome_number_version4(number))
+print(f"First version Solution : {is_palindrome_number_version1(number)}")
+print(f"Second version Solution : {is_palindrome_number_version2(number)}")
+print(f"Third version Solution : {is_palindrome_number_version3(number)}")
+print(f"Fourth version Solution : {is_palindrome_number_version4(number)}")
