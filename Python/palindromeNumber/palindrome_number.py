@@ -7,8 +7,8 @@
 
 """
 
-def is_palindrome_number_version1(number):
 
+def is_palindrome_number_version1(number):
     """ 
         First method I thought of is turn the int into a string
         We can use str() function to cast an int to string
@@ -23,8 +23,8 @@ def is_palindrome_number_version1(number):
 
     return str(number)[::-1] == str(number)
 
-def is_palindrome_number_version2(number):
 
+def is_palindrome_number_version2(number):
     """ 
         The second method I thought of is to turn the number into a string
         check if the first element is equal to the last one
@@ -44,8 +44,8 @@ def is_palindrome_number_version2(number):
 
     return True
 
-def is_palindrome_number_version3(number):
 
+def is_palindrome_number_version3(number):
     """ 
         The third method is not use a cast
         For this one I'll explain it using an example this way it's more intuitive
@@ -66,7 +66,7 @@ def is_palindrome_number_version3(number):
         Time complexity : O(log10(n)) , Space Complexity : O(1)
         (n being the number itself)
     """
-    
+
     # Special cases
     # When a number is inferior than 0 it's not a palindrome -121 != 121-
     # Since a number don't start with 0 every number that finish with 0 is not a palindrome (except the number 0 itself)
@@ -79,11 +79,11 @@ def is_palindrome_number_version3(number):
     while temp / 10 != 0:
         reversed_number = reversed_number * 10 + temp % 10
         temp //= 10
-    
+
     return reversed_number == number
 
-def is_palindrome_number_version4(number):
 
+def is_palindrome_number_version4(number):
     """ 
         In version 3 we reverse the number then check if it's equal to the original
         In this version we will only go as far as the half of the number (like version 2 using string)
@@ -102,10 +102,10 @@ def is_palindrome_number_version4(number):
         return False
 
     reversed_half = 0
-    while number > reversed_half :
+    while number > reversed_half:
         reversed_half = reversed_half * 10 + number % 10
         number = number // 10
-    
+
     return number == reversed_half or number == reversed_half // 10
 
 
